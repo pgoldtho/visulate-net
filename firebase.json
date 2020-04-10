@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [{
+      "source": "/cmbs{,/**}",
+      "destination": "https://cmbs.visulate.net/",
+      "type": 301
+    }]
+  }
+}
